@@ -5,6 +5,7 @@
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Setup](#setup)
+* [Typo](#typo)
 * [Project Status](#project-status)
 * [Useful Links](#useful-link)
 
@@ -19,8 +20,12 @@ Website with 4 parts : Accueil / Blog / Portfolio / Contact
 
 
 ## Setup
-Hebergement via InfinityFree
-FileZilla 
+*Hebergement via InfinityFree
+*I've downloaded FileZilla 
+
+## Typo
+*Font : Heebo 
+*Download via Google Font
 
 
 ## Project Status
