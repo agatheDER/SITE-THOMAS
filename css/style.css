@@ -1,0 +1,269 @@
+body {
+    font-family: "Heebo", sans-serif;
+    margin:0;
+    color:#21243D;
+}
+
+/***** VOLET NAVIGATION *****/
+nav {
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    max-width:1200px;
+    padding-left:20px;
+    padding-right:20px;
+    box-sizing:border-box;
+    margin:15px auto 0 auto;
+}
+
+#nav-links {
+    display:flex;
+    gap: 65px;
+}
+
+.nav-link {
+    color :black;
+    text-decoration:none;
+    font-weight: 700;
+    font-size:20px;
+}
+#menu-button {
+    display:none;
+}
+
+/*****HEADER *****/
+header {
+    display: flex;
+    max-width:1200px;
+    padding-left:20px;
+    padding-right:20px;
+    box-sizing:border-box;
+    margin:75px auto;
+    justify-content: space-between;
+}
+div#header-content {
+    width: 630px;
+}
+h1 {
+    font-weight: 700;
+    font-size: 44px;
+    margin-bottom: 0px;
+}
+#subtitle {
+    font-size:16px;
+    margin:35px 0px;
+}
+a#button-cv {
+    background-color: #FF6464;
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    padding:5px 15px;
+}
+
+/*****SECTION 1 BLOG*****/
+#blog {
+    background-color:#EDF7FA;
+    padding-bottom:35px;
+
+}
+#blog-content {
+    max-width:1200px;
+    padding-left:20px;
+    padding-right:20px;
+    box-sizing:border-box;
+    margin:auto
+}
+h2{
+    font-weight: 400;
+    padding-top :20px;
+    font-size: 22px;
+}
+#articles{
+    display:flex;
+    justify-content: space-between;  
+}
+.article-blog{
+    background-color: white;
+    border-radius:4px;
+    width:543px;
+    padding:10px 20px;
+    box-sizing: border-box;
+    max-width:48%;
+}
+p.date-category {
+    font-size: 18px;
+    display: flex;
+    gap: 25px;
+}
+h3.article-title {
+    font-size: 26px;
+}
+p.article-description {
+    font-size: 16px;
+}
+
+/*****SECTION 2 PROJETS*****/
+#projets{
+    max-width:1200px;
+    padding-left:20px;
+    padding-right:20px;
+    box-sizing:border-box;
+    margin:auto
+}
+.projet {
+    display:flex;
+    gap:50px;
+    margin-bottom:40px;
+}
+
+h3.projet-title {
+    font-size:30px;
+    margin: 0px 0 15px 0;
+    font-weight: 700;
+}
+.projet-description {
+    font-size:16px;
+}
+.projet-date {
+    display:inline-block;
+    font-size: 18px;
+    font-weight: 900;
+    background-color: #142850;
+    border-radius: 16px;
+    color:white;
+    width: 62px;
+    height:25px;
+    text-align: center;
+}
+.projet-type {
+    color:#8695A4;
+    font-weight:400;
+    margin-left:60px;
+    font-size:20px;
+}
+
+/*****SECTION CONTACT + FORMULAIRE *****/
+#contact {
+    max-width:1200px;
+    padding-left:20px;
+    padding-right:20px;
+    box-sizing:border-box;
+    margin:auto;
+}
+#contact-content {
+    display:flex;
+    gap:40px;
+}
+.contact-title {
+    font-size:36px;
+    font-weight:800;
+}
+#contact-intro { 
+    font-size:20px;
+    font-weight: 400;
+}
+#contact-email {
+    font-size:16px;
+}
+.social-link {
+    font-size:16px;
+    color:black;
+}
+div#coordonnees {
+    flex: 1;
+}
+
+
+
+/***** FORMULAIRE*****/
+.form-group {
+    display:flex;
+    flex-direction: column;
+    gap:10px; 
+}
+form {
+     display:flex;
+    flex-direction: column;
+    gap:10px; 
+    flex: 1;
+}
+
+input, select, textarea { 
+    background-color:#F7F7F7;
+    border:none;
+    height:46px;
+}
+textarea {
+    height:165px;
+}
+
+label { 
+    font-size:14px;
+}
+button {
+    border:none;
+    height:56px;
+    background-color: black;
+    color:white;
+}
+
+/*****FOOTER*****/
+footer {
+    padding-top: 100px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+div#icons-socials {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+p#copyright {
+    font-size: 14px;
+    color: #21243D;
+}
+
+/**** MEDIA QUERIES ****/
+
+@media (max-width:700px) {
+    div#coordonnees {
+        display: none;
+    }
+    div#articles {
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
+    article.projet {
+        flex-direction: column;
+    }
+    .projet-image {
+        width:100%;
+    }
+    .article-blog {
+        max-width:none;
+        width:100%;
+    }
+    h2, h1 {
+        text-align: center;
+    }
+    .projet-type {
+        margin-left:20px;
+    }
+    header {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    div#header-content {
+        width: 100%;
+    }
+    div#nav-links {
+        display: none;
+    }
+    #menu-button {
+        display:block;
+    }
+}
