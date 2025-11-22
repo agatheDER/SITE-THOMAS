@@ -6,7 +6,7 @@
 * [Technologies Used](#technologies-used)
 * [Setup](#setup)
 * [Project Status](#project-status)
-* [Liens Utiles](#useful-link)
+* [Useful Links](#useful-link)
 
 
 ## General Information
